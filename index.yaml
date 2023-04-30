@@ -3,9 +3,9 @@ entries:
   ads-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-30T19:48:29.1104963+05:00"
+    created: "2023-04-30T21:10:29.5079753+05:00"
     description: A Helm chart for Kubernetes
-    digest: a17cd8df251969879f480df686ab4c979f033bdbaea27257b26f6f4081d62197
+    digest: b08fbe728b7c66d0792a95660aeb68c00231a9f3ac7be323704f774699b95f9f
     name: ads-chart
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   demochart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-30T19:48:29.1110259+05:00"
+    created: "2023-04-30T21:10:29.5085269+05:00"
     description: A Helm chart for Kubernetes
     digest: 4f782deee716fa4bdde004e65bf2b5931d810be11b1bc0f77052fc6ea3793f00
     name: demochart
@@ -22,4 +22,4 @@ entries:
     urls:
     - demochart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-30T19:48:29.1089381+05:00"
+generated: "2023-04-30T21:10:29.5074471+05:00"
