@@ -9,6 +9,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    chart: quarkus
-    repoURL: https://redhat-developer.github.io/redhat-helm-charts
+    chart: ads-app
+    repoURL: https://github.com/zahidiqbalnbs/gitchartsrepo
     targetRevision: 0.1.0
