@@ -20,6 +20,6 @@ entries:
     name: demochart
     type: application
     urls:
-    - https://zahidiqbalnbs.github.io/gitchartsrepo/demochart-0.1.0.tgz
+    - https://zahidiqbalnbs.github.io/gitchartsrepo/1demochart-0.1.0.tgz
     version: 0.1.0
 generated: "2023-04-30T21:15:44.0751633+05:00"
