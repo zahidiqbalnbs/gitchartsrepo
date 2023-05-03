@@ -10,5 +10,5 @@ spec:
   project: default
   source:
     chart: demochart
-    repoURL: https://zahidiqbalnbs.github.io/gitchartsrepoz
+    repoURL: https://redhat-developer.github.io/redhat-helm-charts
     targetRevision: 0.1.0
