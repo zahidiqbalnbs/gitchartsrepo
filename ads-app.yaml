@@ -10,12 +10,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    helm:
-      parameters:
-        - name: build.enabled
-          value: "false"
-        - name: deploy.route.enabled
-          value: "false"
     chart: ads-chart
     repoURL: https://github.com/zahidiqbalnbs/gitchartsrepo
     targetRevision: 0.0.3
