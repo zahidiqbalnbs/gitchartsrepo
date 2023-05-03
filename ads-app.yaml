@@ -10,5 +10,5 @@ spec:
   project: default
   source:
     chart: ads-chart
-    repoURL: https://github.com/zahidiqbalnbs/gitchartsrepo
+    repoURL: https://zahidiqbalnbs.github.io/gitchartsrepo
     targetRevision: 0.0.3
