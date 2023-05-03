@@ -10,5 +10,5 @@ spec:
   project: default
   source:
     chart: demochart
-    repoURL: https://zahidiqbalnbs.github.io/gitchartsrepo
+    repoURL: https://zahidiqbalnbs.github.io/gitchartsrepoz
     targetRevision: 0.1.0
