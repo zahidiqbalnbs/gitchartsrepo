@@ -1,7 +1,8 @@
+---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ads-app
+  name: quarkus-app
   namespace: argocd
 spec:
   destination:
@@ -9,8 +10,16 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    chart: ads-chart
-    repoURL: https://github.com/zahidiqbalnbs/gitchartsrepo
+    helm:
+      parameters:
+        - name: build.enabled
+          value: "false"
+        - name: deploy.route.enabled
+          value: "false"
+        - name: image.name
+          value: quay.io/redhatworkshops/gitops-helm-quarkus
+    chart: quarkus
+    repoURL: https://redhat-developer.github.io/redhat-helm-charts
     targetRevision: 0.0.3
   syncPolicy:
     retry:
@@ -23,4 +32,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+    - CreateNamespace=true
