@@ -11,7 +11,7 @@ spec:
   source:
     chart: ads-chart
     repoURL: https://zahidiqbalnbs.github.io/gitchartsrepo
-    targetRevision: 0.1.2
+    targetRevision: 0.1.0
   syncPolicy:
     retry:
       backoff:
